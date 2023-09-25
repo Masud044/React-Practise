@@ -20,7 +20,7 @@ const TwoRadios = () => {
     
   )
 }
-<p>aadfkafha akglka</p>
+  <h1 className="font-medium">This is holiday below</h1>
 {
 days.map(item=>
   <div key={item}>
@@ -34,33 +34,6 @@ days.map(item=>
 
 <p>game:{game1} days:{day}</p>
 
-
-
-
-
-
-
-
-{/* {
-   arrays.map((item,i)=>{
-         return  <> 
-         
-          <li key={i}>{item}
-          <input onChange={(e)=>handlecheck(!e.target.value,i)} type="checkbox" name="check" id="check" />
-         
-         {
-          check && current==i && ( <button onClick={()=>handledelete(i)} className="btn ml-4 mb-2 border border-red-200">delete</button>)
-         } 
-         </li>
-                 
-                 </>
-
-          
-       })
-      
-     }
-*/}
-    
 </div>
         </div>
     );
